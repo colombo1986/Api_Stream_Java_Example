@@ -8,17 +8,19 @@ import java.util.stream.Stream;
 
 public class EjemploStreamMapFilterAnyMatch {
     public static void main(String[] args) {
-        boolean existe = Stream.of("Pato Guzman", "Carlos Perez", "Pato Natales", "Luisa Acevedo")
-                .map(nombre -> new Usuario(nombre.split(" ")[0], nombre.split(" ")[1]))
-                //.peek(System.out::println)
-                .anyMatch(u -> u.getId().equals(9)) ;
+        boolean existe = Stream.of("Pato Guzman 1", "Carlos Perez 2", "Pato Natales 3", "Luisa Acevedo 4")
+                .map(nombre ->{
+                    String[] partes = nombre.split(" ");
+                    return new Usuario(partes[0], partes[1], Integer.parseInt(partes[2]));
+                        })
+                        .anyMatch(u->u.getId()==1);
 
         System.out.println(existe);
 
-        List<Usuario> lista = Arrays.asList(new Usuario("Pato" ,"Guzman"),
-                                              new Usuario("Carlos" ,"Perez"),
-                                                 new Usuario("Pato"," Natales") ,
-                                                  new Usuario(  "Luisa" ,"Acevedo")) ;
+        List<Usuario> lista = Arrays.asList(new Usuario("Pato" ,"Guzman", 1),
+                                              new Usuario("Carlos" ,"Perez", 2),
+                                                 new Usuario("Pato"," Natales", 3) ,
+                                                  new Usuario("Luisa" ,"Acevedo", 4)) ;
 
         boolean resultado = false ;
         for(Usuario u:lista){

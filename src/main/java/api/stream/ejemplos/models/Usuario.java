@@ -15,6 +15,13 @@ public class Usuario {
     public Usuario() {
     }
 
+    public Usuario(String nombre,String apellido, Integer id) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.id = id;
+
+    }
+
     public String getApellido() {
         return apellido;
     }
@@ -37,5 +44,14 @@ public class Usuario {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "apellido='" + apellido + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", id=" + id +
+                '}';
     }
 }
