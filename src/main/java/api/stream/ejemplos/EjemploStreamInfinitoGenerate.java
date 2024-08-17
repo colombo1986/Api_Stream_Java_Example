@@ -1,2 +1,3 @@
-package api.stream.ejemplos;public class EjemploStreamInfinitoGenerate {
+package api.stream.ejemplos;
+public class EjemploStreamInfinitoGenerate {
 }

@@ -1,2 +1,6 @@
-package api.stream.ejemplos.models;public class Factura {
+package api.stream.ejemplos.models;
+
+public class Factura {
+
+
 }

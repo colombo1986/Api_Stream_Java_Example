@@ -5,11 +5,11 @@ import api.stream.ejemplos.models.Usuario;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-class EjemploStreamFilterSingle {
+public class EjemploStreamFilterSingleElement {
     public static void main(String[] args) {
         Stream<Usuario> nombres = Stream.of("Pato Guzman", "Carlos Perez", "Pato Natales", "Luisa Acevedo")
                 .map(nombre -> new Usuario(nombre.split(" ")[0], nombre.split(" ")[1]))
-                .filter(usuario -> usuario.getNombre().equals("Pato"))
+                .filter(usuario -> usuario.getNombre().equals("Patox"))
                 .peek(System.out::println) ;
 
         Optional<Usuario> usuario = nombres.findFirst() ;

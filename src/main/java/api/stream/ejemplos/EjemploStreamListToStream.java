@@ -1,2 +1,3 @@
-package api.stream.ejemplos;public class EjemploStreamListToStream {
+package api.stream.ejemplos;
+public class EjemploStreamListToStream {
 }

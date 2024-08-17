@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class EjemploStream {
+class ejemploStream {
     public static void main(String[] args) {
 
        Stream<String> nombres = Stream.of("Pato" , "Carlo" , "Maria" , "Luisa") ;

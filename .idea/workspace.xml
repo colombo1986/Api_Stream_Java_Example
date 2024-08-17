@@ -1,25 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd68c38a-22df-4358-8203-1fc79cbd3ddb" name="Changes" comment="" />
+    <list default="true" id="fd68c38a-22df-4358-8203-1fc79cbd3ddb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilterSingleElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamDisctinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamDisctinct2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamDisctinctUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamDisctinctUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamDisctinctUsuarioSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamMapFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilterAnyMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamMapFilterAnyMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamMapFilterCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilterEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilterEmpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilterSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamMapFilterSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFilterSingle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamMapFilterSingle2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamFlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamListToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamListToStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamReduceEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamReduceEnteros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamReduceRango.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/EjemploStreamReduceRango.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/models/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/models/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stream/ejemplos/models/Usuario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;colombo1986&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/colombo1986/Api_Stream_Java_Example.git&quot;,
+    &quot;accountId&quot;: &quot;1f04ff15-09a7-4f32-bf93-74b4ed2e75b6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2HwQBtTRHR7NOVwGfiLMZ6qKbgY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EjemploStreamFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploStreamFilterSingle2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.EjemploStreamFilterSingle">
+    <configuration name="EjemploStreamFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.stream.ejemplos.EjemploStreamFilter" />
+      <module name="apistream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.stream.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploStreamFilterSingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.stream.ejemplos.EjemploStreamFilterSingle" />
+      <module name="apistream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.stream.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploStreamFilterSingle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.stream.ejemplos.EjemploStreamFilterSingle2" />
+      <module name="apistream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.stream.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjemploStreamFilterSingle" />
+        <item itemvalue="Application.EjemploStreamFilterSingle2" />
+        <item itemvalue="Application.EjemploStreamFilter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,7 +149,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669193534034</updated>
+      <workItem from="1723857225804" duration="1217000" />
+      <workItem from="1723858449745" duration="693000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
